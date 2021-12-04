@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap5</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <h1 class="text-primary">Bootstrap5</h1>
+    <h1 class="text-secondary">Bootstrap5</h1>
+    <h1 class="text-danger">Bootstrap5</h1>
+    <!-- p-3 padding val -->
+    <button class="btn btn-primary p-2">Button</button>
+    <!-- 직접 만듦 bp-3 padding val -->
+    <button class="btn btn-primary bp-2">Button</button>
+
+    <!--bt Grid -->
+    <!-- Break Point & 12(col) -->
+    <!-- row -->
+    <div class="row">
+        <div class="col-8 bg-success">1</div>
+        <div class="col-2 bg-dark">2</div>
+        <div class="col-2 bg-danger">3</div>
+    </div>
+
+    <!-- Break Point md(Medium Size)-->
+    <!-- 자동으로 밑으로 처리 col-lg-4 균등처리-->
+    <!-- 전체 사이즈 4 균등 -->
+    <!-- Medium 사이즈 6:5:1 size -->
+    <!-- smallsize 사이즈 12 다음주 6:6 size -->
+    <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 bg-info">1</div>
+        <div class="col-6  col-md-5 col-lg-4 bg-white">2</div>
+        <div class="col-6  col-md-1 col-lg-4 bg-warning">3</div>
+    </div>
+</body>
+</html>
